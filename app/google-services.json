@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_id": "deliveryapp-1210",
+    "project_number": "32231108204",
+    "name": "DeliveryApp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32231108204:android:e0397e0cef680720",
+        "client_id": "android:com.prideapp.deliveryapp",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.prideapp.deliveryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32231108204-o5imsejppaiqivfm1vm2dprflvnpg9av.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prideapp.deliveryapp",
+            "certificate_hash": "75201CF13B928D123811944026831BFD978836B5"
+          }
+        },
+        {
+          "client_id": "32231108204-1m192frd65ii0a8tmpdgqn0j8uj1f5h5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

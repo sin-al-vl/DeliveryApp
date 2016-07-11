@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="@string/pref_title_category1"
+        android:title="@string/pref_title_category1">
+
+        <EditTextPreference
+            android:key="@string/pref_key_boss_email"
+            android:title="@string/pref_title_boss_email"
+            android:summary="@string/dialog_login_tv_explanation"/>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key="@string/pref_title_category1"
+        android:title="@string/pref_title_category2">
+
+        <MultiSelectListPreference
+            android:key="@string/pref_key_days_picker"
+            android:title="@string/pref_title_days_picker"
+            android:defaultValue="@array/empty"
+            android:enabled="true"
+            android:entries="@array/days"
+            android:entryValues="@array/days"
+            android:persistent="true" />
+
+        <Preference
+            android:key="@string/pref_key_start_time_picker"
+            android:title="@string/pref_title_start_time_picker" />
+
+        <Preference
+            android:key="@string/pref_key_end_time_picker"
+            android:title="@string/pref_title_end_time_picker" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_title_category3"
+        android:title="@string/pref_title_category3">
+
+        <CheckBoxPreference
+            android:key="@string/pref_key_notif"
+            android:title="@string/pref_title_notif"
+            android:defaultValue="false"
+            android:summary="@string/pref_summary_notif"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

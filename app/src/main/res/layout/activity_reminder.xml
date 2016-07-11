@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="@string/reminder_activity_btn_add"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/ic_note_add_black_24dp"
+        android:drawableStart="@drawable/ic_note_add_black_24dp"/>
+
+    <ListView
+        android:id="@+id/lvReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>

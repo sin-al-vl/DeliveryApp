@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">DeliveryAPP</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_maps">Map</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyAAgcUwghUYXCF-JcZ8r_a-PC6adop9Eqg
+    </string>
+    <string name="title_activity_reminder">Reminder</string>
+    <string name="title_activity_report">Report</string>
+    <!--<string name="google_app_id">deliveryapp-1210</string>-->
+
+    <string name="main_activity_btn_checkout_stocks">Checkout stocks</string>
+    <string name="main_activity_btn_maps">Maps</string>
+    <string name="main_activity_btn_remnder">Reminder</string>
+    <string name="main_activity_btn_reporting">Reporting</string>
+    <string name="main_activity_btn_options">Options</string>
+    <string name="main_activity_btn_exit">Exit</string>
+
+    <string name="db_activity_cm_add">Add item</string>
+    <string name="db_activity_cm_edit">Edit item</string>
+    <string name="db_activity_cm_delete">Delete item</string>
+    <string name="db_activity_cm_error">This function is enabled only for production items</string>
+
+    <string name="maps_activity_default_marker_title">Stock#</string>
+
+    <string name="reminder_activity_btn_add">Add new reminder</string>
+    <string name="reminder_title_start">Reminder#</string>
+    <string name="reminder_state_not_done">not done</string>
+    <string name="reminder_state_done">DONE</string>
+    <string name="reminder_activity_cm_state">Change state</string>
+    <string name="reminder_activity_cm_edit">Edit reminder</string>
+    <string name="reminder_activity_cm_delete">Delete reminder</string>
+
+    <string name="report_activity_btn_1">In stock#1</string>
+    <string name="report_activity_btn_2">In stock#2</string>
+    <string name="report_activity_btn_3">In stock#3</string>
+    <string name="report_activity_btn_leave">Leave stock</string>
+    <string name="report_activity_btn_send">Send report</string>
+    <string name="report_activity_btn_clear">Delete all reports</string>
+    <string name="report_activity_toast_no_info">There is no information to send</string>
+    <string name="report_activity_send_summary">Send report to your authority</string>
+
+    <string name="dialog_login_title">Log In</string>
+    <string name="dialog_login_tv_explanation">Your reports will be sent on this address</string>
+    <string name="dialog_login_et_prompt">e-mail</string>
+    <string name="dialog_login_btn_next">Continue</string>
+    <string name="dialog_login_error_empty">Field is required</string>
+    <string name="dialog_login_error_invalid">This e-mail is invalid</string>
+    <string name="dialog_login_toast_instructions">Set your schedule in options, please</string>
+
+    <string name="dialog_db_title">Fill this fields</string>
+    <string name="dialog_db_tv_product">Product</string>
+    <string name="dialog_db_tv_amount">Amount</string>
+    <string name="dialog_db_btn_save">Save</string>
+    <string name="dialog_db_error">All fields are required</string>
+
+    <string name="dialog_maps_btn_save">Save info</string>
+    <string name="dialog_maps_btn_delete">Delete marker</string>
+    <string name="dialog_maps_hint">Set marker info</string>
+
+    <string name="dialog_reminder_title">Reminder</string>
+    <string name="dialog_reminder_btn_ok">OK</string>
+    <string name="dialog_reminder_hint">Type text of reminder here</string>
+
+    <string name="dialog_report_title">Choose report</string>
+
+
+
+
+    <!--Preferences-->
+    <string name="pref_title_category1">Output preferences</string>
+    <string name="pref_title_category2">Schedule preferences</string>
+    <string name="pref_title_category3">Other</string>
+
+    <string name="pref_title_boss_email">E-mail of your authority</string>
+    <string name="pref_title_start_time_picker">Working hours begin at</string>
+    <string name="pref_title_end_time_picker">Working hours end at</string>
+    <string name="pref_title_days_picker">Working days</string>
+    <string name="pref_title_notif">Enable notifications</string>
+
+    <string name="pref_key_category1">category1</string>
+    <string name="pref_key_category2">category2</string>
+    <string name="pref_key_category3">category3</string>
+
+    <string name="pref_key_boss_email">boss_email</string>
+    <string name="pref_key_start_time_picker">begin_time_picker</string>
+        <string name="key_start_hours">sh</string>
+        <string name="key_start_minutes">sm</string>
+    <string name="pref_key_end_time_picker">end_time_picker</string>
+        <string name="key_end_hours">eh</string>
+        <string name="key_end_minutes">em</string>
+    <string name="pref_key_days_picker">days_picker</string>
+    <string name="pref_key_notif">notification_check_box</string>
+        <string name="key_was_notificated">wn</string>
+
+    <string name="pref_summary_notif">Notifications about your daily reporting</string>
+
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="empty"></string-array>
+
+</resources>
